@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Full-stack application using OpenAI API to generate concise study notes from text input by user. AI Study Note Generator 📘✨
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Built with React.js (frontend), Node.js/Express (backend), and MySQL (optional for saving history), this project demonstrates end-to-end full-stack development and AI integration.
 
-## Available Scripts
+🚀 Features
 
-In the project directory, you can run:
+Paste in raw text (e.g., textbook passage, lecture notes).
 
-### `npm start`
+Generate AI-powered study notes in seconds.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Simple, responsive UI built with React.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Backend API with Express.js and OpenAI integration.
 
-### `npm test`
+Error handling for failed requests.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🛠️ Tech Stack
 
-### `npm run build`
+Frontend: React.js, Axios Backend: Node.js, Express.js, OpenAI API
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📸 Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+(Insert screenshots/GIFs of your app here)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+⚡ Getting Started Prerequisites
 
-### `npm run eject`
+Node.js & npm installed
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+OpenAI API key → Get one here
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Clone the repo:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+git clone https://github.com/yourusername/ai-study-notes.git cd ai-study-notes
 
-## Learn More
+Install dependencies for backend:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+cd backend npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Create a .env file in /backend:
 
-### Code Splitting
+OPENAI_API_KEY=your_api_key_here
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Start backend:
 
-### Analyzing the Bundle Size
+node server.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Install frontend dependencies:
 
-### Making a Progressive Web App
+cd ../frontend npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Start frontend:
 
-### Advanced Configuration
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+📂 Project Structure ai-note-application/ frontend/ # React app backend/ # Express server README.md
 
-### Deployment
+About
+Full-stack application using OpenAI API to generate concise study notes from text input by user.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Resources
+ Readme
+ Activity
+Stars
+ 0 stars
+Watchers
+ 0 watching
+Forks
+ 0 forks
+Releases
+No releases published
+Create a new release
+Packages
+No packages published
+Publish your first package
+Footer
